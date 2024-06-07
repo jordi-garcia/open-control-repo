@@ -1,0 +1,14 @@
+puppet_enterprise::profile::master::code_manager_auto_configure: true
+puppet_enterprise::master::pe_r10k::git_settings:
+  private-key: "/etc/puppetlabs/puppetserver/ssh/id_rsa.pub"                                  
+  repositories:
+    - remote: "https://github.com/jordi-garcia/control-repo.git"
+      private-key: "/etc/puppet/labs/puppetserver/ssh/id_rsa.pub"
+    - remote: "https://github.com/jordi-garcia/RSAN.git"
+      private-key: "/etc/puppet/labs/puppetserver/ssh/id_rsa.pub"
+puppet_enterprise::master::code_manager::sources:
+    controlrepo:
+      remote: "https://github.com/jordi-garcia/control-repo.git"
+      prefix: false
+      invalid_branches: 'correct'
+

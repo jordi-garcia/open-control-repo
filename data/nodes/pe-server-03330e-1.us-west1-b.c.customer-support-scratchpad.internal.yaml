@@ -1,0 +1,2 @@
+---
+puppet_enterprise::profile::master::versioned_deploys: false

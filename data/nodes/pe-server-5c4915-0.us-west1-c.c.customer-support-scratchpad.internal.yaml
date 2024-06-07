@@ -1,0 +1,5 @@
+---
+influxdb::token: 'cIJ-dmKxUlj86f62LJe846qomCrU8_i9MpgMbEsoKX8b5K3n--F0IIroCw1R4Q_Q8WzrpaDE7IorLIFYCvWnkA=='
+lookup_options:
+  influxdb::token:
+    convert_to: 'Sensitive'
