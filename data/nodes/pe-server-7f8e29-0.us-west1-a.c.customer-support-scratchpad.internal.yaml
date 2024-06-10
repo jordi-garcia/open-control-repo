@@ -4,3 +4,4 @@ puppet_enterprise::master::code_manager::git_settings:
   repositories: 
     - remote: "https://github.com/jordi-garcia/control-repo.git" 
       oauth_token: "/etc/puppetlabs/puppet/tokens/codetoken" 
+puppet_enterprise::profile::master::code_manager_auto_configure: true
