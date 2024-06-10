@@ -1,6 +1,5 @@
 --- 
 puppet_enterprise::master::code_manager::git_settings: {
- "private-key": "/etc/puppetlabs/puppetserver/ssh/id_rsa.pub",
  "provider":"rugged",
  "repositories":[
   {
