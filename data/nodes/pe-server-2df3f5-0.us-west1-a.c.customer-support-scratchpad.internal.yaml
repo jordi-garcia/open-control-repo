@@ -44,3 +44,4 @@ puppet_enterprise::master::code_manager::sources: {
 ##puppet_enterprise::master::pe_r10k::git_settings: {
 ##  "oauth_token": "/etc/puppetlabs/puppet/tokens/codetoken",
 ## }
+puppet_enterprise::profile::master::versioned_deploys: true
